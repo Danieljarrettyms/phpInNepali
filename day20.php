@@ -13,6 +13,6 @@ $a[1][1] = 4;
 $b[0] = 1;
 $b[1] = 2;
 echo "<pre>";
-var_dump($a);
+var_dump($a); 
 echo "</pre>";
 ?>
