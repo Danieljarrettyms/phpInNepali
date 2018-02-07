@@ -2,7 +2,7 @@
 /*$student[0] = array('name'=>'Suman','address'=>'Biratnagar','age'=>26);
 $student[1] = array('name'=>'Anwar','address'=>'Kathmandu','age'=>30);
 echo $student[0]['name'];
-echo $student[0]['Biratnagar'];
+echo $student[0]['address'];//mistake in video
 echo $student[1]['name'];*/
 
 $a[0][0] = 1;
