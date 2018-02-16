@@ -28,3 +28,5 @@ SELECT id,name FROM tbl_users WHERE gender LIKE 'male';
 SELECT id,name,gender FROM tbl_users WHERE gender LIKE 'male' OR id=1;
 SELECT * FROM tbl_users WHERE name LIKE '%ali';
 
+
+
