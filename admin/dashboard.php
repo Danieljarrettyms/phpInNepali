@@ -1,14 +1,9 @@
 <?php
-session_start();
-if(!isset($_SESSION['admin']))
-{
-	redirect('index.php');
-}
-function redirect($page)
-{
-	echo '<script type="text/javascript">
-		window.location = "'.$page.'";
-	</script>';
-}
-echo $_SESSION['admin'];
+include('includes/session.php');
+include('includes/header.php');
 ?>
+
+
+
+	<h1>Welcome Admin</h1>
+<?php include('includes/footer.php');?>
