@@ -7,6 +7,7 @@ $link = connect();
 $result = execute($link,"SELECT * FROM categories");
 ?>
 <h1>Category Manager</h1>
+<a href="<?php echo $base_url;?>/modules/categories/add_category.php">Add New Category</a><br><br>
 <?php
 if(num_rows($result) > 0)
 {
