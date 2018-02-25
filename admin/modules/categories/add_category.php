@@ -3,8 +3,6 @@ include('../../includes/session.php');
 include('../../includes/constants.php');
 include('../../includes/header.php');
 include('../../includes/connection.php');
-$link = connect();
-$result = execute($link,"SELECT * FROM categories");
 ?>
 <h1>Add Category</h1>
 <form action="<?php echo $base_url;?>/modules/categories/insert_category.php" method="post">
