@@ -56,5 +56,9 @@ if(num_rows($result) > 0)
 	</table>
 	<?php
 }
+else
+{
+	echo "No categories found";
+}
 ?>
 <?php include('../../includes/footer.php');?>
